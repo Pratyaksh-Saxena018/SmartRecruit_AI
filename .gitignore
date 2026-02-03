@@ -1,0 +1,13 @@
+# Ignore Model Files
+my_custom_resume_model/
+*.safetensors
+*.bin
+
+# Ignore Search Indexes
+job_index.faiss
+jobs_metadata.pkl
+
+# Ignore Virtual Env & PyCharm settings
+venv/
+.idea/
+__pycache__/
