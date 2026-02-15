@@ -39,7 +39,7 @@ def load_assets():
     jobs_db = pd.read_pickle(db_path)
     return model, index, jobs_db
 
-
+#added code
 model, index, jobs_db = load_assets()
 
 # --- 2. LOGIC CORE ---
